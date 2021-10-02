@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataTutorial", "ODataTutorial\ODataTutorial.csproj", "{96288108-1881-46BA-8F5F-C82E22E4430D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96288108-1881-46BA-8F5F-C82E22E4430D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96288108-1881-46BA-8F5F-C82E22E4430D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96288108-1881-46BA-8F5F-C82E22E4430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96288108-1881-46BA-8F5F-C82E22E4430D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

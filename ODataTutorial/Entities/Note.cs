@@ -6,5 +6,5 @@ public class Note
 {
     public Guid Id { get; set; }
     [Required]
-    public string MessageNote { get; set; }
+    public string MessageNote { get; set; } = default!;
 }

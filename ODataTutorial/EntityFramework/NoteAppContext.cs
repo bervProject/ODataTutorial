@@ -5,7 +5,7 @@ namespace ODataTutorial.EntityFramework;
 
 public class NoteAppContext : DbContext
 {
-    public DbSet<Note> Notes { get; set; }
+    public DbSet<Note> Notes { get; set; } = default!;
 
     public NoteAppContext(DbContextOptions<NoteAppContext> options) : base(options)
     {

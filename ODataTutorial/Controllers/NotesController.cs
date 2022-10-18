@@ -78,7 +78,7 @@ public class NotesController : ODataController
     [EnableQuery]
     public async Task<IActionResult> Delete([FromODataUri] Guid key)
     {
-        Note existingNote = await _db.Notes.FindAsync(key);
+        var existingNote = await _db.Notes.FindAsync(key);
         if (existingNote == null)
         {
             return NotFound();

@@ -1,22 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODataTutorial", "ODataTutorial\ODataTutorial.csproj", "{96288108-1881-46BA-8F5F-C82E22E4430D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ODataTutorial", "ODataTutorial\ODataTutorial.csproj", "{96288108-1881-46BA-8F5F-C82E22E4430D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7644665B-5A22-480A-A5A0-4627FD7384D6}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\codeql-analysis.yml = .github\workflows\codeql-analysis.yml
+		.github\dependabot.yml = .github\dependabot.yml
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{96288108-1881-46BA-8F5F-C82E22E4430D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{96288108-1881-46BA-8F5F-C82E22E4430D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96288108-1881-46BA-8F5F-C82E22E4430D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96288108-1881-46BA-8F5F-C82E22E4430D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
